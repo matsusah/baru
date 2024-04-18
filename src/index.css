@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Custom CSS Start */
+
+/* Place-holder input custom */
+input.placeholder-custom::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #fff;
+}
+
+input.placeholder-custom:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #fff;
+}
+
+input.placeholder-custom::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #fff;
+}
+
+input.placeholder-custom:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #fff;
+}
+
+
+/* Container upload gambar custom */
+.container-input-gambar {
+  /* display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: black;
+  appearance: none;
+  background-clip: padding-box;
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem; */
+
+  cursor: pointer;
+}
+
+.container-input-gambar:active {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+
+.image-campaign-main {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title-main-campaign {
+  white-space: nowrap;
+  /* Mencegah teks untuk pindah baris */
+  overflow: hidden;
+  /* Mengatur overflow untuk memotong teks yang melebihi container */
+  text-overflow: ellipsis;
+  /* Menambahkan tanda elipsis (...) di akhir teks yang dipotong */
+}
+
+.img-detail {
+  object-fit: cover;
+}
+
+
+/* Detail guide */
+.container-text-wrapping {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+/* Custom CSS End */
