@@ -1,5 +1,5 @@
 // base url
-// export const main_url = "http://a4bucks.com";
+export const main_url = "http://a4bucks.com";
 // export const main_url = "http://localhost/LARAVELREACT/backend";
 export const get_public_url = `${main_url}/public`;
 export const get_api = `${main_url}/public/api`;
